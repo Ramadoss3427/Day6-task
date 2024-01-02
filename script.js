@@ -11,10 +11,9 @@ class movie{
 }
 const movie1=new movie("casino royale","eon production","pg13",)
 const movie2=new movie("casino royale","eon production")
-console.log(movie1.tittle)
-console.log(movie1.stdio)
-console.log(movie1.rating)
-console.log(movie2.rating)
+console.log(movie1)
+
+console.log(movie2)
 console.log(movie2.ratingmovie) 
 //question2
 class circle{
@@ -66,10 +65,8 @@ class person{
     
 }
 const person1=new person("raja",40,"male",55)
-console.log(person1.name)
-console.log(person1.age)
-console.log(person1.gender)
-console.log(person1.salary)
+console.log(person1)
+
 */qustion4*/
 class uberprice{
     constructor(kilometer,price=50){
